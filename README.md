@@ -1,7 +1,7 @@
 # What does this system do?
 Mobile Voting System allows to provide voting among multiple users using mobile phone SMS technology and publish outcome to the web-server.
 
-In order to get system work you need: * GSM modem and driver for it * JDK 6 or latest * WeVote program
+In order to get system work you need: GSM modem and driver for it JDK 6 or latest WeVote program
 
 In downloading tab you can find drivers for mc35 GSM modem, which was used as an example, documentation, WeVote program and putty program for testing connections with modem.
 
@@ -31,6 +31,6 @@ In downloading tab you can find drivers for mc35 GSM modem, which was used as an
 * Logout
 
 ##Problems with modem?
-Testing the connections is easy: * plugin GSM modem and run putty * choose "Serial" option and COM-port * in opened terminal type "AT" * correct responds from modem must be "OK"
+Testing the connections is easy: plugin GSM modem and run putty choose "Serial" option and COM-port in opened terminal type "AT" correct responds from modem must be "OK"
 
 WeVoteClient is able to search for COM ports and pick the one that has a pre-defined modem connected to it.
